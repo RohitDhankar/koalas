@@ -1,3 +1,25 @@
+
+https://github.com/databricks/koalas/blob/bcb3f77cbb9b0c76fc32fcc9b478eb71abfd8e15/databricks/koalas/groupby.py#L79
+ # TODO: skipna should be implemented.
+    def any(self) -> Union[DataFrame, Series]:
+
+**if skipna:
+  order_column = Column(c._jc.desc_nulls_last())
+else:**
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
 ## DEPRECATED: Koalas supports Apache Spark 3.1 and below as it is [officially included to PySpark in Apache Spark 3.2](https://issues.apache.org/jira/browse/SPARK-34849). This repository is now in maintenance mode. For Apache Spark 3.2 and above, please use [PySpark](https://spark.apache.org/docs/latest/api/python/migration_guide/koalas_to_pyspark.html) directly.
 
 <p align="center">
